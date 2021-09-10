@@ -7,6 +7,7 @@ LIMIT 5;
 -- 2. Soru
 SELECT title FROM film
 WHERE title LIKE '%n'
+ORDER BY length
 OFFSET 5
 LIMIT 5;
 
